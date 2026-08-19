@@ -215,5 +215,3 @@ def generate_report():
             ensure_ascii=False
         )
     return informe
-
-generate_report()
