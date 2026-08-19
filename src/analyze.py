@@ -1,11 +1,11 @@
-from .client import Client
-from .sale import Sale
-from .client_collection import ClientCollection
-from .sales_collection import SalesCollection
+from client import Client
+from sale import Sale
+from client_collection import ClientCollection
+from sales_collection import SalesCollection
 from pathlib import Path
 import json
 import pandas as pd
-from .functional_utils import filter_sales_by_category
+from functional_utils import filter_sales_by_category
 
 
 def generate_report():
